@@ -1,4 +1,4 @@
-# PoHD Simulation v1.1
+# PoHD Simulation v1.2
 
 人間の尊厳の証明（Proof of Human Dignity）経済シミュレーションシステム
 
@@ -20,3 +20,15 @@ PoHD Simulation v1.1は、Motokoベースの経済シミュレーションシス
 ### 人的資本スコア（HCS）動態
 
 HCS更新式：
+if (hcs >= 0.7 && mealsThisWeek < 3) {
+  hcs += α * mealEffect;          // 定食ボーナス
+}
+hcs -= β * stressLevel;           // ストレス逆相関
+hcs += γ * randomStepBonus;       // 毎日8,000歩ボーナス
+
+### 経済モデル
+
+CW_t   += 0.3*VDF + 0.5*HCS + 0.2*ProofOfForgetting   // Euler近似
+GDP_t  = A₀ × e^(0.03t) × (PHD)^0.4 × (HCS)^0.3 × (1 + Burn_t)^0.3
+
+
