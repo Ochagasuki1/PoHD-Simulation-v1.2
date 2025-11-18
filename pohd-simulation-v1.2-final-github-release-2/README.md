@@ -31,4 +31,8 @@ hcs += γ * randomStepBonus;       // 毎日8,000歩ボーナス
 CW_t   += 0.3*VDF + 0.5*HCS + 0.2*ProofOfForgetting   // Euler近似
 GDP_t  = A₀ × e^(0.03t) × (PHD)^0.4 × (HCS)^0.3 × (1 + Burn_t)^0.3
 
+## ライセンス
+
+CC BY 4.0 ─ 誰でも自由に改変・商用利用・国家プロジェクト化OK（出典明記のみ）
+
 
