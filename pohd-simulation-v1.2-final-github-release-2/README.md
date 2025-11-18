@@ -139,9 +139,13 @@ Burn	1.111→1.20	2035年に全スマホ72時間連続VDF実行	+36点（312→3
 
 \begin{aligned}
 \text{HCS}_{t+1}^i &= \text{HCS}_t^i 
+
   + \alpha \cdot \mathbb{1}_{\text{meal}} 
+  
   - \beta \cdot s_t^i 
+  
   + \gamma \cdot \epsilon_t^i \\[6pt]
+
 \text{CW}_{t+1} &= \text{CW}_t + 0.3\Delta\text{VDF}_t + 0.5\overline{\text{HCS}}_t + 0.2\text{PoF}_t \\[6pt]
 Y_t &= 100 \cdot e^{0.03t} \cdot (\text{PHD}_t)^{0.4} \cdot (\overline{\text{HCS}}_t)^{0.3} \cdot (1 + B_t)^{0.3}
 \end{aligned}
