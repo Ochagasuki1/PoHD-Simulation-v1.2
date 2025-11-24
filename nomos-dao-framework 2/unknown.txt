@@ -1,0 +1,47 @@
+
+**解決方法:**
+- `frontend/src/backend.d.ts`が最新か確認
+- `dfx generate backend`を再実行
+- TypeScriptサーバーを再起動
+
+#### 3. スタイルが適用されない
+
+**解決方法:**
+- Tailwind設定を確認
+- `index.css`がインポートされているか確認
+- ブラウザキャッシュをクリア
+
+## プロジェクトリンク
+
+### リポジトリ
+- **nomos-ui**: https://github.com/your-org/nomos-ui
+- **nomos-core**: https://github.com/your-org/nomos-core
+- **nomos-engines**: https://github.com/your-org/nomos-engines
+
+### ドキュメント
+- **メインプロジェクト文書**: https://github.com/your-org/nomos-dao-framework
+- **API仕様書**: https://github.com/your-org/nomos-core/blob/main/docs/API.md
+- **デザインシステムガイド**: https://github.com/your-org/nomos-ui/blob/main/docs/DESIGN_SYSTEM.md
+- **貢献ガイドライン**: https://github.com/your-org/nomos-ui/blob/main/docs/CONTRIBUTING.md
+
+### コミュニティ
+- **Discord**: https://discord.gg/nomos-dao
+- **Twitter**: https://twitter.com/nomos_dao
+- **Forum**: https://forum.nomos-dao.org
+
+## ライセンス
+
+MIT License - 詳細は[LICENSE](LICENSE)ファイルを参照してください。
+
+## サポート
+
+質問や問題がある場合：
+
+1. **ドキュメント確認**: まずこのREADMEと関連ドキュメントを確認
+2. **Issue検索**: 既存のIssueで同様の問題がないか検索
+3. **新規Issue作成**: 解決しない場合は新しいIssueを作成
+4. **Discord参加**: リアルタイムサポートが必要な場合
+
+---
+
+© 2025 Nomos DAO Framework. Built with ❤️ using [caffeine.ai](https://caffeine.ai)
